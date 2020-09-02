@@ -24,7 +24,7 @@ data = "This is a test\n"
 b.write(data)
 b.write(data)
 b.write(data)
-b.close
+b.close()
 
 with open("bar.txt") as b:
     data = b.read()
